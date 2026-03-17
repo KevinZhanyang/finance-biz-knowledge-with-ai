@@ -55,6 +55,41 @@
 └── README.md
 ```
 
+## 学习路线
+
+建议按以下顺序阅读，从具象到抽象，逐层展开：
+
+```
+第一层：建立基础概念
+  ① glossary/fund-terms.md        先熟悉术语，后续阅读不卡壳
+  ② fund/overview.md              了解基金是什么、有哪些类型
+
+第二层：理解核心业务流程（一笔交易是怎么完成的）
+  ③ fund/sales/subscription.md    投资者怎么买卖基金（申购/赎回）
+  ④ fund/sales/distribution.md    代销机构怎么卖基金
+  ⑤ fund/registration/ta-system.md  TA 系统怎么登记份额
+  ⑥ fund/registration/day-end.md    日终跑批怎么确认交易
+  ⑦ fund/registration/clearing.md   资金怎么清算交收
+
+第三层：认识行业参与方（谁在做这些事）
+  ⑧ institution/fund-company.md   基金公司
+  ⑨ institution/distributor.md    销售机构
+  ⑩ institution/custodian.md      托管银行
+  ⑪ institution/csdc.md           中国结算
+  ⑫ institution/csrc.md           监管体系
+
+第四层：深入专业领域
+  ⑬ fund/valuation/               估值与净值计算
+  ⑭ fund/sales/fee-structure.md   费率体系
+  ⑮ research/                     投研体系
+  ⑯ integration/                  系统对接与数据交换
+
+第五层：扩展领域
+  ⑰ insurance/                    保险行业
+```
+
+> 每一层建立在上一层的基础上。同一层内的文档可以按任意顺序阅读。
+
 ## 内容原则
 
 - **重业务逻辑**：记录"行业怎么运转的"，而非金融理论或投资策略
